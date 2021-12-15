@@ -1,0 +1,183 @@
+/* global setting */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    /* accurate size, margin, padding  */
+    /* accurate measurements 100% 50/50 */
+  }
+  
+  /* global styling */
+  html,
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  h1,
+  h2,
+  h3 {
+    padding-bottom: 20px;
+  }
+  p {
+    margin: 10px;
+  }
+  
+  /* navigation */
+  
+  #navbar {
+    background: #082032;
+    color: #fff;
+    overflow: auto;
+  }
+  #navbar a {
+    color: #fff;
+  }
+  /* ul */
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+  }
+  
+  #navbar h1 {
+    float: left;
+    padding-top: 20px;
+  }
+  
+  #navbar ul li a:hover {
+    background: #334756;
+    color: #ff4c29;
+  }
+  
+  .container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+  }
+  /* hero section */
+  #hero {
+    background: url("../image/background.jpg") no-repeat center center/cover;
+    height: 600px;
+  }
+  
+  #hero .hero-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+  }
+  #hero .hero-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+  }
+  
+  .primary-text {
+    color: #f0f0cb;
+  }
+  #hero .hero-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+  }
+  
+  .text-lead {
+    font-size: 20px;
+  }
+  .btn {
+    color: #fff;
+    background: #334756;
+    padding: 13px 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+  }
+  /* about section */
+  #about{
+    height: 400px;
+  }
+#about p{
+  line-height: 2em;
+}
+#about h2{
+  color: #ffb740;
+}
+#about i{
+  margin:10px ;
+}
+#about p{
+  line-height: 2em;
+  font-size: 15px;
+}
+#about .content-1,
+#about .content-2,
+#about .content-3{
+  float: left;
+  width: 33%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+}
+#about a.c-tbn {
+  color: #082032;
+}
+#about a.c-tbn:hover {
+  color: #ffb740;
+}
+/* Section of testimonials */
+#testimonials{
+  background: url("../image/forbackgroung.jpg")no-repeat center center/cover;
+  height: 600px;
+  overflow: hidden;
+}
+#testimonials .testimonial img{
+  height: 100px;
+}
+/* adding a color overlay on the background of the about section  */
+.row{
+  background: rgba(39, 62, 84, 0.4);
+  overflow: hidden;
+  height: 600px;
+  z-index: 2;
+}
+/* changing the font color the heading and adjusting some spaces from the top */
+#testimonials .lead-head{
+  color: #fff;
+  padding-top: 20px;
+  margin-bottom: 20px; ;
+}
+.bg-primary {
+  background: rgba(255, 255, 255, 0.4);
+}
+/* adjusting the testimonials container */
+#testimonials .testimonial{
+  padding: 20px;
+  width: 50%;
+  margin-bottom: 40px;
+  border-radius: 1.2em;
+}
+#testimonials .testimonial img{
+  height: 100px;
+  width: 90px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+/* Footer */
+ footer{
+  background: #082032;
+  height: 70px;
+  overflow: auto;
+  text-align: center;
+  color: #fff;
+}
